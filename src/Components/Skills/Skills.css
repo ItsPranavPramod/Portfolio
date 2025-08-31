@@ -1,0 +1,53 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+
+    @media(max-width:768px){
+        padding: 0px 0px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 80px;
+
+    @media(max-width:768px){
+        padding: 0px 0px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+.images img{
+    border: 5px solid white;
+    border-radius: 500px;
+
+    @media(max-width:768px){
+        width: 50px;
+    }
+}
+
+.skill-name p{
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 500;
+    color: white;
+
+    @media(max-width:768px){
+        display: none;
+    }
+}
